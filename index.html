@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABC dos 9</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="headBox">
+            <header>
+                <h1 id="header">ABC dos 9</h1>
+            </header>
+            <div id="request">
+                <p id="textIntro">Escreva uma frase para a obter em imagens do <i>ABC dos 9</i>™</p>
+            </div>
+            <div id="input">
+                <input type="text" id="inputtxt" value="" onKeyDown="if(event.keyCode==13) submit(), fit()">
+                <button onclick="submit(), fit()">Submit</button>
+            </div>
+        </div>
+        <div id="imagesOut">
+
+        </div>
+    </body>
+</html>
