@@ -21,9 +21,9 @@ function getImages(txtcut) {
     test.innerHTML=""
     for (let i = 0; i < txtcut.length; i++) {
         if (txtcut[i]==" ") {
-            test.innerHTML+=`<div><img src="C:/Users/nunop/VSCode/ABCdos9/fotos/space.png" alt=""></img></div>`
+            test.innerHTML+=`<div><img src="https://nunop11.github.io/ABCdos9/fotos/space.png" alt=""></img></div>`
         } else {
-            test.innerHTML+=`<div><img src="C:/Users/nunop/VSCode/ABCdos9/fotos/${txtcut[i]}.png" alt=""></img></div>`
+            test.innerHTML+=`<div><img src="https://nunop11.github.io/ABCdos9/fotos/${txtcut[i]}.png" alt=""></img></div>`
         }
     }
 }
