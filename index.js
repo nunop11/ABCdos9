@@ -20,10 +20,12 @@ function getImages(txtcut) {
     let test = document.getElementById("imagesOut")
     test.innerHTML=""
     for (let i = 0; i < txtcut.length; i++) {
+        let text = txtcut[i]
+        if (typeof text == "string") {text = text.toUpperCase()}
         if (txtcut[i]==" ") {
             test.innerHTML+=`<div><img src="https://nunop11.github.io/ABCdos9/fotos/space.png" alt=""></img></div>`
         } else {
-            test.innerHTML+=`<div><img src="https://nunop11.github.io/ABCdos9/fotos/${txtcut[i]}.png" alt=""></img></div>`
+            test.innerHTML+=`<div><img src="https://nunop11.github.io/ABCdos9/fotos/${text}.png" alt=""></img></div>`
         }
     }
 }
